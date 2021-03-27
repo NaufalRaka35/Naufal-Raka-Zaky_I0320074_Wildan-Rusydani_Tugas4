@@ -1,11 +1,11 @@
 umur = 21
-x = int(input("Berapa Usia Anda :"))
-if umur <= x :
+a = int(input("Berapa Usia Anda :"))
+if umur <= a :
     print("Anda cukup umur")
-    y = input("Apakah Anda sudah lulus ujian kualifikasi (Y/T) :")
-    if y == "Y" :
+    b = input("Apakah Anda sudah lulus ujian kualifikasi (B/T) :")
+    if b == "B" :
         print("Anda dapat mendaftar di kursus")
-    elif y == "T" :
+    elif b == "T" :
         print("Anda tidak dapat mendaftar di kursus.")
 else :
     print("Anda belum cukup umur")
